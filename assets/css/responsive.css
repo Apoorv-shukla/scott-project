@@ -1,0 +1,790 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* Start Menu Bar */
+    #NavbarMainBox
+    {
+        width:100%;
+        
+    }
+    .navbar h3
+    {
+        font-size:15px;
+
+    }
+    .navbar p
+    {
+        font-size:13px;
+    }
+    #liThree,#liTwo,#liOne,#liOne div.dropdown-menu,#liTwo div.dropdown-menu,#liThree div.dropdown-menu,#liFour,#liFive
+    {
+        width:100%;
+        
+        
+    }
+
+    #liThree div.dropdown-menu a,#liTwo div.dropdown-menu a,#liOne div.dropdown-menu a
+    {
+        width:100%;
+        border:1px solid #ccc;
+        font-size:12px;
+    }
+ 
+    
+    #liFour button,#liFive button
+    {
+        
+        font-size:12px;
+        
+    }
+    #liFour button
+    {
+        margin-right:2px;
+    }
+    #liFive button
+    {
+        margin-left:2px;
+    }
+
+    /* End Menu Bar */
+    /* Start Logo Section */
+
+    #logo_img
+    {
+        width:60%;
+        padding:18px 0px;
+        margin:auto;
+    }
+    .purText
+    {
+        font-size:13px;
+        border-left:none;
+        
+        width:100%;
+        text-align:center;
+        padding:5px 0px;
+    }
+
+
+
+    /* End Logo section */
+
+    /* Start Ads Section */
+    .adsContainer
+    {
+        background-color:black;
+        height:40vh;
+    }
+    .adsContainer h1
+    {
+        font-size:18px;
+    }
+
+    /* End Ads Section */
+    /*  Start News Section */
+    .newsContainer h2
+    {
+        font-size:18px;
+    }
+    .newsContainer span
+    {
+        font-size:14px;
+    }
+    .newsContainer p
+    {
+        font-size:14px;
+        line-height:18px;
+    }
+
+
+
+    /* End News Section */
+
+    /*  Start Screen Container */
+    .screenContainer h2
+    {
+        font-size:18px;
+    }
+    .screenContainer span
+    {
+        font-size:14px;
+    }
+    .screenContainer p
+    {
+        font-size:14px;
+        line-height:18px;
+    }
+    .screenContainer .blackBox
+    {
+        height:30vh;
+    }
+
+    /*  End Screen Container */
+
+    /* Start aq Container */
+    .aqContainer h2
+    {
+        font-size:18px;
+    }
+    .aqContainer p
+    {
+        font-size:14px;
+        line-height:18px;
+    }
+    .aqContainer span
+    {
+        font-size:14px;
+    }
+    /* End aq Container */
+
+    /* Start Question Container */
+    .questionContainer h1
+    {
+        font-size:24px;
+    }
+    .questionContainer span
+    {
+        font-size:14px;
+    }
+    
+
+
+    /* End Question Container */
+
+    /*  Start Footer */
+    footer h6
+    {
+        
+        font-size:20px;
+    }
+    footer .container>div>div
+    {
+        border-bottom:1px solid #ccc;
+    }
+    footer pre
+    {
+        font-size:12px;
+    }
+
+    /*  Ebd Footer */
+    #logo_footer
+    {
+        left:15px;
+        bottom:-12%;
+    }
+    #logo_footer img{
+        width:100%;
+    }
+    /* #logo_footer i
+    {
+        width:20px;
+        height:20px;
+        
+        color:#fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo_footer .icon_1
+    {
+        background-color:#5baae8;
+    }
+    #logo_footer .icon_2
+    {
+        background-color:#d6312f;
+    } */
+    #top_right_logo
+    {
+        width:25%;
+    }
+
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 768px) {
+    /* Start Menu Bar */
+    #NavbarMainBox
+    {
+        width:100%;
+        
+    }
+    .navbar h3
+    {
+        font-size:18px;
+
+    }
+    .navbar p
+    {
+        font-size:15px;
+    }
+    #liThree,#liTwo,#liOne,#liOne div.dropdown-menu,#liTwo div.dropdown-menu,#liThree div.dropdown-menu,#liFour,#liFive
+    {
+        width:100%;
+    }
+
+     #liThree div.dropdown-menu a,#liTwo div.dropdown-menu a,#liOne div.dropdown-menu a
+    {
+        width:100%;
+        border:1px solid #ccc;
+    } 
+    #liFour button,#liFive button
+    {
+        font-size:14px;
+    }
+    /* End Menu Bar */
+    /* Start Logo Section */
+
+    #logo_img
+    {
+        width:50%;
+        padding:18px 0px;
+        margin:auto;
+    }
+    .purText
+    {
+        font-size:20px;
+        border-left:none;
+        
+        width:100%;
+        text-align:center;
+        padding:10px 0px;
+    }
+        /*  Start News Section */
+        .newsContainer h2
+        {
+            font-size:24px;
+        }
+        .newsContainer span
+        {
+            font-size:16px;
+        }
+        .newsContainer p
+        {
+            font-size:16px;
+            line-height:20px;
+        }
+    
+    
+    
+        /* End News Section */
+
+
+
+    /* End Logo section */
+
+
+        /*  Start Screen Container */
+        .screenContainer h2
+        {
+            font-size:24px;
+        }
+        .screenContainer span
+        {
+            font-size:16px;
+        }
+        .screenContainer p
+        {
+            font-size:16px;
+            line-height:20px;
+        }
+        .screenContainer .blackBox
+        {
+            height:50vh;
+        }
+    
+        /*  End Screen Container */
+
+            /* Start aq Container */
+    .aqContainer h2
+    {
+        font-size:24px;
+    }
+    .aqContainer p
+    {
+        font-size:16px;
+        line-height:18px;
+    }
+    .aqContainer span
+    {
+        font-size:14px;
+    }
+    /* End aq Container */
+
+        /* Start Question Container */
+        .questionContainer h1
+        {
+            font-size:28px;
+        }
+        .questionContainer span
+        {
+            font-size:17px;
+        }
+        
+    
+    
+        /* End Question Container */
+
+            /*  Start Footer */
+    footer h6
+    {
+        font-size:20px;
+    }
+    footer .container>div>div
+    {
+        border-bottom:1px solid #ccc;
+    }
+    footer pre
+    {
+        font-size:12px;
+    }
+
+    /*  Ebd Footer */
+    #logo_footer
+    {
+        bottom:-15%;
+    }
+    #logo_footer img{
+        width:90%;
+    }
+    #top_right_logo
+    {
+        width:20%;
+    }
+    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 992px)
+{
+    /* Start Menu Bar */
+    #NavbarMainBox
+    {
+        width:85%;
+        
+    }
+    .navbar h3
+    {
+        font-size:16px;
+
+    }
+    .navbar p
+    {
+        font-size:12px;
+    }
+    
+   
+    #liFour button,#liFive button
+    {
+        font-size:10px;
+
+    }
+    #liFour button
+    {
+        margin-right:2px;
+    }
+    #liFive button
+    {
+        margin-left:2px;
+    }
+    #liThree div.dropdown-menu a,#liTwo div.dropdown-menu a,#liOne div.dropdown-menu a
+    {
+        font-size:14px;
+    }
+    /* End Menu Bar */
+    /* Start Logo Section */
+
+    #logo_img
+    {
+        width:70%;
+        margin:auto;
+    }
+    .purText
+    {
+        font-size:26px;
+    }
+
+
+
+    /* End Logo section */
+
+    /*  Start News Section */
+    .newsContainer h2
+    {
+        font-size:34px;
+    }
+    .newsContainer span
+    {
+        font-size:20px;
+    }
+    .newsContainer p
+    {
+        font-size:18px;
+        line-height:24px;
+    }
+
+
+
+    /* End News Section */
+
+        /*  Start Screen Container */
+        .screenContainer h2
+        {
+            font-size:34px;
+        }
+        .screenContainer span
+        {
+            font-size:20px;
+        }
+        .screenContainer p
+        {
+            font-size:18px;
+            line-height:24px;
+        }
+        .screenContainer .blackBox
+        {
+            height:50vh;
+        }
+    
+        /*  End Screen Container */
+
+                    /* Start aq Container */
+    .aqContainer h2
+    {
+        font-size:34px;
+    }
+    .aqContainer p
+    {
+        font-size:18px;
+        line-height:24px;
+    }
+    .aqContainer span
+    {
+        font-size:20px;
+    }
+    /* End aq Container */
+    /* Start Question Container */
+    .questionContainer h1
+    {
+        font-size:34px;
+    }
+    .questionContainer span
+    {
+        font-size:17px;
+        padding-left:20px;
+    }
+    
+
+
+    /* End Question Container */
+
+    /*  Start Footer */
+    footer h6
+    {
+        font-size:24px;
+    }
+    footer .container>div>div
+    {
+        border-bottom:1px solid #ccc;
+    }
+    footer pre
+    {
+        font-size:14px;
+    }
+            
+    /*  Ebd Footer */
+    #logo_footer
+    {
+        bottom:-18%;
+    }
+    #logo_footer img{
+        width:100%;
+    }
+    #top_right_logo
+    {
+        width:16%;
+    }
+}
+@media only screen and (min-device-width : 992px) and (max-device-width : 1024px)
+{
+    /* End Menu Bar */
+    #NavbarMainBox
+    {
+        width:85%;
+        
+    }
+    .navbar h3
+    {
+        font-size:18px;
+
+    }
+    .navbar p
+    {
+        font-size:15px;
+    }
+    #liFour button,#liFive button
+    {
+        font-size:13px;
+
+    }
+    /* End Menu Bar */
+
+    /* Start Logo Section */
+
+    #logo_img
+    {
+        width:75%;
+        margin:auto;
+    }
+    .purText
+    {
+        font-size:27px;
+    }
+    /* Start Ads Section */
+    .adsContainer
+    {
+        background-color:black;
+        height:60vh;
+    }
+    .adsContainer h1
+    {
+        font-size:36px;
+    }
+
+    /* End Ads Section */
+
+
+
+    /* End Logo section */
+
+            
+    /*  Start News Section */
+    .newsContainer h2
+    {
+        font-size:36px;
+    }
+    .newsContainer span
+    {
+        font-size:20px;
+    }
+    .newsContainer p
+    {
+        font-size:20px;
+        line-height:26px;
+    }
+
+
+
+    /* End News Section */
+
+    /*  Start Screen Container */
+    .screenContainer h2
+    {
+        font-size:36px;
+    }
+    .screenContainer span
+    {
+        font-size:20px;
+    }
+    .screenContainer p
+    {
+        font-size:20px;
+        line-height:26px;
+    }
+    .screenContainer .blackBox
+    {
+        height:60vh;
+    }
+
+    /*  End Screen Container */
+
+    /* Start aq Container */
+    .aqContainer h2
+    {
+        font-size:36px;
+    }
+    .aqContainer p
+    {
+        font-size:20px;
+        line-height:26px;
+    }
+    .aqContainer span
+    {
+        font-size:20px;
+    }
+    /* End aq Container */
+
+    /* Start Question Container */
+    .questionContainer h1
+    {
+        font-size:34px;
+    }
+    .questionContainer span
+    {
+        font-size:20px;
+    }
+    
+
+
+    /* End Question Container */
+
+    /*  Start Footer */
+    footer h6
+    {
+        font-size:20px;
+    }
+    footer .container>div>div
+    {
+        border-bottom:1px solid #ccc;
+    }
+    footer pre
+    {
+        font-size:16px;
+    }
+
+    /*  Ebd Footer */
+    #logo_footer
+    {
+        bottom:-24%;
+    }
+    #logo_footer img{
+        width:80%;
+    }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1224px)
+{
+    /* Start Menu Bar */
+    #NavbarMainBox
+    {
+        width:82%;
+        
+    }
+    .navbar h3
+    {
+        font-size:20px;
+
+    }
+    .navbar p
+    {
+        font-size:15px;
+    }
+    #liFour button,#liFive button
+    {
+        font-size:14px;
+
+    }
+    /* End Menu Bar */
+
+    /* Start Logo Section */
+
+    #logo_img
+    {
+        width:75%;
+        margin:auto;
+    }
+    .purText
+    {
+        font-size:32px;
+    }
+
+
+
+    /* End Logo section */
+    
+    
+
+    
+}
+@media only screen and (min-device-width : 1224px) and (max-device-width : 1824px)
+{
+    /* Start Menu Bar */
+    #NavbarMainBox
+    {
+        width:75%;
+        
+    }
+    .navbar h3
+    {
+        font-size:23px;
+
+    }
+    .navbar p
+    {
+        font-size:17px;
+    }
+    #liFour button,#liFive button
+    {
+        font-size:16px;
+
+    }
+    /* End Menu Bar */
+
+
+    /* Start Logo Section */
+
+
+
+
+
+    /* End Logo section */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
+/* @media (min-width: 1824px)
+{
+    #NavbarMainBox
+    {
+        width:70%;
+        
+    }
+    .navbar h3
+    {
+        font-size:25px;
+
+    }
+    .navbar p
+    {
+        font-size:15px;
+    }
+    #liFour button,#liFive button
+    {
+        font-size:13px;
+
+    }
+} */
+
+
+
+
+
+
+
+

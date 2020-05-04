@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.topHead,.newsContainer,.aqContainer
+{
+	background-color:#53A4E5;
+}
+.round
+{
+	width:160px;
+	height:160px;
+	border:1px solid red;
+	border-radius:50%;
+}
+.compHead
+{
+	font-family: arial;
+	font-weight: bold;
+	color:#000;
+}
+.purText
+{
+	font-family: arial;
+	font-weight: bold;
+	color:#000;
+	font-size:35px;
+	border-left: 2px solid #000;
+}
+.navbar h3
+{
+	font-family: arial;
+	font-weight:bold;
+	font-size:24px;
+	color:#53A4E5;
+
+}
+.signupContainer h1,.loginContainer h1
+{
+	font-family: arial;
+	font-weight: bold;
+	color:#000;
+}
+.navbar p
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size:17px;
+	color:#000;
+}
+.navbar button,#loginModel form .loginBtn, #signupModel form .signupBtn
+{
+	color:#53A4E5;
+	font-weight: bold;
+	background-color:#000;
+	border:none;
+}
+.loginCon h1,.questionContainer h1
+{
+	font-family: arial;
+	font-weight: bold;
+	color:#000;
+}
+.newsContainer h2,.aqContainer h2
+{
+	font-family: arial;
+	font-weight: bold;
+	color:#fff;
+}
+.newsContainer span,.aqContainer span
+{
+	font-family: arial;
+	font-weight: bold;
+	color:#000;
+	font-size:20px;
+}
+.newsContainer p,.aqContainer p
+{
+	font-family:sans-serif;
+	color:#000;
+	font-size:19px;
+	line-height:25px;
+}
+.screenContainer,.questionContainer
+{
+	background-color: #B2D6F4;
+
+}
+.screenContainer .blackBox
+{
+	height:400px;
+	background-color:#000;
+}
+.screenContainer h2
+{
+	font-family: arial;
+	font-weight: bold;
+	color:#000;
+}
+.screenContainer p,.questionContainer p
+{
+	font-family: arial;
+	color:#000;
+	font-size:18px;
+}
+footer h6
+{
+	font-family: arial;
+	font-weight: bold;
+	font-size:14px;
+	color:#000;
+
+}
+footer p
+{
+	font-family: arial;
+	font-size:13px;
+	font-weight: bold;
+	color:#000;
+
+}
+.outPut
+{
+	background-color: #B2D6F4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #liFour
+{
+	width:9%;
+}
+#liFive
+{
+	width:9%;
+} */
+/* .topHead  .navbar .navbar-nav li
+{
+	border-bottom:1px solid #ccc;
+} */
+
+#logo_img
+{
+	width:90%;
+}
+.adsContainer
+{
+	background-color:black;
+	height:50vh;
+}
+
+.topHead #liFour button,.topHead #liFive button
+{
+	width:100px;
+}
+.topHead #liFour,.topHead #liFive
+{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#NavbarMainBox #NavbarMainBox
+{
+	width:68%;
+}
+#NavbarMainBox #liOne
+{
+	width:24%;
+}
+#NavbarMainBox #liTwo
+{
+	width:38%;
+}
+
+#NavbarMainBox #liThree
+{
+	width:20%;
+}
+
+#NavbarMainBox #liThree div.dropdown-menu a,#NavbarMainBox #liTwo div.dropdown-menu a,#NavbarMainBox #liOne div.dropdown-menu a
+{
+	width:100%;
+}
+.topHead #liThree div.dropdown-menu a,.topHead #liTwo div.dropdown-menu a,.topHead #liOne div.dropdown-menu a
+{
+	border:none;
+}
+#NavbarMainBox .dropdown-menu>div>a:nth-child(odd)
+{
+	background-color:#ccc;
+}
+#NavbarMainBox .ads_over>a:nth-child(odd)
+{
+	background-color:#ccc;
+}
+
+#NavbarMainBox .pro_over>a:nth-child(odd)
+{
+	background-color:#ccc;
+}
+/* 
+
+
+#liOne div.dropdown-menu
+{
+	width:416.67%;
+}
+
+#liTwo div.dropdown-menu
+{
+	width:263.16%;
+	left:-63.16%;
+}
+#liThree div.dropdown-menu
+{
+	width:500%;
+	left:-310%;
+} */
+
+#logo_footer
+{
+	left:0;
+	z-index:1;
+	bottom:-22%;
+}
+#logo_footer img{
+	width:60%;
+}
+#logo_footer i
+{
+	width:20px;
+	height:20px;
+	
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#logo_footer .icon_1
+{
+	background-color:#5baae8;
+}
+#logo_footer .icon_2
+{
+	background-color:#d6312f;
+}
+#top_right_logo
+{
+	position:absolute;
+	top:0;right:0;
+	width:11%;
+}
